@@ -9,6 +9,7 @@
 
 | Name | Version |
 |------|---------|
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 2.20.0 |
 | <a name="requirement_consul"></a> [consul](#requirement\_consul) | >= 2.4.0 |
 
 ## Providers
