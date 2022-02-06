@@ -7,7 +7,9 @@
 
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_consul"></a> [consul](#requirement\_consul) | >= 2.4.0 |
 
 ## Providers
 
