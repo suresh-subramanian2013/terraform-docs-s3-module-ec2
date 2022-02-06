@@ -47,5 +47,7 @@
 |------|-------------|
 | <a name="output_arn"></a> [arn](#output\_arn) | ARN of the bucket |
 | <a name="output_domain"></a> [domain](#output\_domain) | Domain name of the bucket |
+| <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | ID of the EC2 instance |
+| <a name="output_instance_public_ip"></a> [instance\_public\_ip](#output\_instance\_public\_ip) | Public IP address of the EC2 instance |
 | <a name="output_name"></a> [name](#output\_name) | Name (id) of the bucket |
 <!-- END_TF_DOCS -->
