@@ -7,6 +7,7 @@ provider "aws" {
 provider "aws" {
   alias = "prod"
   region = "us-east-2"
+}
 
 terraform {
   required_providers {
