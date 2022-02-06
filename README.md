@@ -14,7 +14,9 @@
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.74.0 |
 
 ## Modules
 
@@ -24,11 +26,20 @@ No providers.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [aws_instance.myec2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
+| [aws_ami.web_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_ec2name"></a> [ec2name](#input\_ec2name) | n/a | `any` | n/a | yes |
+| <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | n/a | `any` | n/a | yes |
+| <a name="input_instancecount"></a> [instancecount](#input\_instancecount) | n/a | `any` | n/a | yes |
+| <a name="input_keyname"></a> [keyname](#input\_keyname) | n/a | `any` | n/a | yes |
+| <a name="input_zone"></a> [zone](#input\_zone) | n/a | `any` | n/a | yes |
 
 ## Outputs
 
