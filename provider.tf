@@ -4,8 +4,9 @@ provider "aws" {
   region = "us-east-1"
 }
 
-provider "terraform-docs" {
-  alias = "demo"
+provider "aws" {
+  alias = "prod"
+  region = "us-east-2"
 }
 
 
