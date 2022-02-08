@@ -14,7 +14,9 @@
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.74.0 |
 
 ## Modules
 
@@ -24,11 +26,20 @@ No providers.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [aws_instance.myec2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance) | resource |
+| [aws_ami.web_ami](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ami) | data source |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_ec2name"></a> [ec2name](#input\_ec2name) | n/a | `any` | n/a | yes |
+| <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | n/a | `any` | n/a | yes |
+| <a name="input_instancecount"></a> [instancecount](#input\_instancecount) | n/a | `any` | n/a | yes |
+| <a name="input_keyname"></a> [keyname](#input\_keyname) | n/a | `any` | n/a | yes |
+| <a name="input_zone"></a> [zone](#input\_zone) | n/a | `any` | n/a | yes |
 
 ## Outputs
 
@@ -36,5 +47,7 @@ No inputs.
 |------|-------------|
 | <a name="output_arn"></a> [arn](#output\_arn) | ARN of the bucket |
 | <a name="output_domain"></a> [domain](#output\_domain) | Domain name of the bucket |
+| <a name="output_instance_id"></a> [instance\_id](#output\_instance\_id) | ID of the EC2 instance |
+| <a name="output_instance_public_ip"></a> [instance\_public\_ip](#output\_instance\_public\_ip) | Public IP address of the EC2 instance |
 | <a name="output_name"></a> [name](#output\_name) | Name (id) of the bucket |
 <!-- END_TF_DOCS -->
